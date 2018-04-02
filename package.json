@@ -1,0 +1,16 @@
+{
+    "author" : "takahashi",
+    "name" : "30min-sample_TravisCI",
+    "description" : "devops 30min example",
+    "version" : "0.0.1",
+    "scripts" : {
+        "test" : "node_modules/.bin/buster-test -r specification"
+    },
+    "devDependencies" : {
+        "buster" : "~0.6",
+        "phantomjs" : ">=1.0.0"
+    },
+    "engines" : {
+        "node" : "~0.8"
+    }
+}
